@@ -1,0 +1,53 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.skill {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+}
+
+/* This container is needed to position the front and back side */
+.skill_inner {
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.skill:hover .skill_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.skill_front, .skill_back {
+  box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+  cursor: pointer;
+  -webkit-box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+  -moz-box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+  border: 1px solid rgba(255,0,76,1);
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.skill_front {
+  /* background: linear-gradient(299deg, rgba(255,163,190,1) 0%, rgba(55,132,255,1) 31%, rgba(150,180,255,1) 71%, rgba(255,213,73,1) 100%); */
+ background: #161517;
+  color: white;
+}
+
+/* Style the back side */
+.skill_back {
+  background: transparent;
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,14 @@
+.navi{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    background: #161517;
+}
+.navi:hover{
+box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+cursor: pointer;
+-webkit-box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+-moz-box-shadow: -1px -1px 44px 0px rgba(255,0,76,1);
+border: 1px solid rgba(255,0,76,1);
+}
