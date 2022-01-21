@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a19dfe88.css",
+    "main.js": "/portfolio/static/js/main.09ffd588.js",
+    "static/js/787.9b9c0edf.chunk.js": "/portfolio/static/js/787.9b9c0edf.chunk.js",
+    "static/media/readeasy.PNG": "/portfolio/static/media/readeasy.d8ad14d78f16f0e4933a.PNG",
+    "static/media/tictactoe.PNG": "/portfolio/static/media/tictactoe.3dd721b11b63f146b37e.PNG",
+    "static/media/home.gif": "/portfolio/static/media/home.62623c3270a9b57bab75.gif",
+    "static/media/me.png": "/portfolio/static/media/me.7ba0d9210615707f37c0.png",
+    "static/media/amazonclone.PNG": "/portfolio/static/media/amazonclone.4f37d41ab0978d5666d9.PNG",
+    "static/media/java.png": "/portfolio/static/media/java.dbae4f1a0ba494f30345.png",
+    "static/media/css.png": "/portfolio/static/media/css.b1dc9eeb13b9837cea03.png",
+    "static/media/html.png": "/portfolio/static/media/html.b18bb7da7e0da1b12998.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.9ea438b0f674e9dac3e2.png",
+    "static/media/node.png": "/portfolio/static/media/node.bc4b43cd5f20ba305059.png",
+    "static/media/react.png": "/portfolio/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/trademanager.PNG": "/portfolio/static/media/trademanager.9dd5eda214764a42d8f2.PNG",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.940824112db2f1788f28.png",
+    "index.html": "/portfolio/index.html",
+    "main.a19dfe88.css.map": "/portfolio/static/css/main.a19dfe88.css.map",
+    "main.09ffd588.js.map": "/portfolio/static/js/main.09ffd588.js.map",
+    "787.9b9c0edf.chunk.js.map": "/portfolio/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a19dfe88.css",
+    "static/js/main.09ffd588.js"
+  ]
+}
