@@ -19,16 +19,16 @@ function About() {
   }, []);
   return (
     <div className="h-[100vh] flex justify-center items-center drop-shadow-2xl">
-      <div className="w-2/3 h-2/3 bg-white/5 rounded-3xl">
+      <div className="sm:mx-5 md:mx-16 lg:mx-28 xl:mx-48 bg-white/5 rounded-3xl">
         <h1 className="text-center text-3xl font-bold text-teal-400 mt-5">
           About Me
         </h1>
-        <div className="flex items-center mt-14">
+        <div className="md:flex items-center mt-14">
           <div className="w-full">
             <img className=" myimg m-auto h-52 w-52 rounded-full" src={me} alt="" />
           </div>
           <div className="w-full border-l-2 border-l-white-500">
-            <p className="para mx-6 text-white text-justify">
+            <p className="mt-5 para mx-6 text-white text-justify">
               Hi, I am Prasad Karmalkar. I am in third year of engineering at
               D.Y.Patil College Of Engineering Akurdi, Pune. I am also working
               as full stack developer(Intern) At Supersapiens Devlab. I have
@@ -38,7 +38,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="mt-10 flex text-center items-center justify-center">
+        <div className="mt-10 pb-10 flex text-center items-center justify-center">
           <ul className="socials">
             <li className="social">
               <a href="https://github.com/prasadkarmalkar">
