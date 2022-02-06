@@ -18,20 +18,20 @@ function Home() {
     });
   }, []);
   return (
-    <div className="h-[100vh]">
+    <div className="home h-[100vh]" id="home">
       <div className="flex p-2 justify-end items-center">
         <ul className="list-style-none flex">
           <li className="text-teal-400 text-sm  font-bold mx-2 px-4 mt-2 py-2 navi md:text-base">
-            Home
+            <a href="#home">Home</a>
           </li>
           <li className="text-teal-400 text-sm  font-bold mx-2 px-4 mt-2 py-2 navi md:text-base">
-            About Me
+            <a href="#about">About Me</a>
           </li>
           <li className="text-teal-400 text-sm  font-bold mx-2 px-4 mt-2 py-2 navi md:text-base">
-            Skills
+            <a href="#skills">Skills</a>
           </li>
           <li className="text-teal-400 text-sm  font-bold mx-2 px-4 mt-2 py-2 navi md:text-base">
-            Projects
+            <a href="#project">Projects</a>
           </li>
         </ul>
       </div>

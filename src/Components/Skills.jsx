@@ -21,7 +21,7 @@ function Skills() {
     });
   }, []);
   return (
-    <div className="">
+    <div id="skills">
       <h1 className="text-center pt-14 text-4xl font-bold text-teal-400 ">
         My Skills
       </h1>

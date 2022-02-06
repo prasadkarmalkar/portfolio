@@ -18,7 +18,7 @@ function About() {
     });
   }, []);
   return (
-    <div className="h-[100vh] flex justify-center items-center drop-shadow-2xl">
+    <div className="about h-[100vh] flex justify-center items-center drop-shadow-2xl" id="about">
       <div className="sm:mx-5 md:mx-16 lg:mx-28 xl:mx-48 bg-white/5 rounded-3xl">
         <h1 className="text-center text-3xl font-bold text-teal-400 mt-5">
           About Me

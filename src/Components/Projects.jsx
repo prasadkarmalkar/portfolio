@@ -7,7 +7,7 @@ import trademanager from '../Assets/trademanager.PNG'
 import Zoom from 'react-reveal/Zoom';
 function Projects() {
   return (
-    <div className="">
+    <div className="project" id="project">
       <h1 className="text-center pt-14 text-4xl font-bold text-teal-400 ">
         Projects
       </h1>
